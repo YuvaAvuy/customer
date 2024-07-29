@@ -24,7 +24,7 @@ def download_and_extract_zip(url):
         return z.namelist()
 
 # URL to the zipped dataset on GitHub
-zip_url = ""
+zip_url = "https://github.com/YuvaAvuy/customer/blob/main/complaints%20(2).zip"
 file_list = download_and_extract_zip(zip_url)
 
 # Assuming the CSV is the first file in the zip
